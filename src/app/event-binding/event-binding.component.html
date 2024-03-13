@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        {{ score }}
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <app-score
+                (sendDataToParent)="eventFromChild()"
+            ></app-score>
+        </div>
+    </div>
+</div>
