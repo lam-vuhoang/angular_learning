@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>Add Server</h1>
+            <input type="text" [(ngModel)]="newServerName">
+            <button class="btn btn-success" (click)="onAddServer()">Add Server</button>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <app-server-element
+            *ngFor="let server of servers"
+            [sevElement]="server"
+        >
+        </app-server-element>
+    </div>
+</div>
