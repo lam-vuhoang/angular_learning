@@ -5,8 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudyComponent } from './study/study.component';
-import { DataBindingComponent } from './data-binding/data-binding.component';
-import { ServerElementComponent } from './server-element/server-element.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { ScoreComponent } from './score/score.component';
 
@@ -14,8 +12,6 @@ import { ScoreComponent } from './score/score.component';
   declarations: [
     AppComponent,
     StudyComponent,
-    DataBindingComponent,
-    ServerElementComponent,
     EventBindingComponent,
     ScoreComponent,
   ],
